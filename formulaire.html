@@ -1,0 +1,61 @@
+<html>
+    <head> 
+         <title>Mon Premier Formulaire</title>
+    </head>
+
+    <body>
+       <h1 style="margin-top: 30px;">Votre Avis Nous Intéresse</h1>
+       
+       <table>
+       <form  >
+        <td>
+           <fieldset> 
+               <legend>Informations Personnelles</legend>
+               <ol>
+                   <li>Nom <input type="text"> </li> 
+                   <li>Date de naissance <input type="date"></li>
+                   <li>Site <input type="site" placeholder="http://monsite.com"></li>
+                   <li>Emploi <select name="#">
+                        <option value="#">Etudiant</option>
+                        <option value="#">Administrateur Réseau</option>
+                        <option value="#">Développeur Web</option>
+                        <option value="#">Web designer</option>
+                        <option value="#">DevOps</option>
+                        
+                </select></li>
+                   <li>Approx. Salaire annuel <br> <input type="number" placeholder="$"></li>
+               </ol>
+           </fieldset> 
+           </td>
+           <td>
+           <fieldset> 
+            <legend>Informations de Contact</legend>
+            <ol>
+                <li>Adresse ligne 1 <br><input type=input type="address"></li>
+                <li>Adresse ligne 2 <br><input type=input type="address"></li>
+
+                <li>Pays 
+                    <select>
+                        <option value="#">Algérie</option>
+                        <option value="#">Tunisie</option>
+                        <option value="#">Maroc</option>
+                    </select>
+                </li>
+                <li>Tél <input type="tel" placeholder="eg: +213 76..."></li>
+                <li>Courriel <input type="text"></li>
+            </ol>
+        </fieldset> 
+        </td>
+       </form>
+    </table>
+    <br>
+    <h1>Préférences</h1>
+    <div>
+     Choisir une couleur  <input type="color" value="black"><br></div>
+   <div> Sur une échelle de 1 à 10, quel est votre degré d'enthousiasme pour HTML5 ? <input type="range" value="blue"><br></div> 
+   <div><input type="submit" value="Envoyer"> </div>
+
+
+
+    </body>
+</html>
